@@ -1,0 +1,22 @@
+<script></script>
+<link rel="stylesheet" href="app.component.css">
+<div style="text-align: center" (click) = "openMenu($event)">
+
+  <h1>Treatments</h1>
+
+<h2>***************************************************</h2>
+  <ul>
+    <app-popup>
+      <p class="title"><b> Treatment</b></p>
+      <li class="items" *ngFor="let treatment of treatmentList ">
+        <p (click) = "itemSelected(1)" >treatment_code {{ treatment.treatment_code }} </p>
+        <p (click) = "itemSelected(2)">product  {{ treatment.product }}</p>
+        <p (click) = "itemSelected(3)">source_system  {{ treatment.source_system }}</p>
+        <p (click) = "itemSelected(4)">variant  {{ treatment.variant }}</p>
+        <p (click) = "itemSelected(5)">_id  {{ treatment._id }}</p>
+        <p (click) = "itemSelected(6)">treatment_text  {{ treatment.treatment_text }}</p>
+        <p (click) = "itemSelected(7)">source_system  {{ treatment.source_system }}</p>
+      </li>
+    </app-popup>
+    </ul>
+</div>

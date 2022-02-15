@@ -1,0 +1,16 @@
+.title {
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.items p {
+  margin: 0px;
+  padding: 10px;
+  border-bottom: 1px solid black;
+}
+
+.items p:hover {
+  color: white;
+  background: black;
+}

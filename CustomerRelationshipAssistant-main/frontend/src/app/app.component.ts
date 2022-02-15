@@ -4,6 +4,7 @@ import { TreatmentsApiService } from './treatments/treatments-api.service';
 import { Treatment } from './treatments/treatment.model';
 import { Observable } from 'rxjs';
 import { PopupComponent } from './popup/popup.component';
+import { PromowidgetComponent } from './promowidget/promowidget.component';
 
 @Component({
   selector: 'app-root',
@@ -18,6 +19,7 @@ export class AppComponent implements OnInit, OnDestroy {
   errorMessage!: string;
 
   @ViewChild(PopupComponent)
+
   menu!: PopupComponent;
 
   openMenu(e:MouseEvent) {

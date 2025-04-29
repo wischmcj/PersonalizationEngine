@@ -74,7 +74,7 @@
                                 - Event data comes through redshift, Other data can be pulled via simple python
 
          Table Details:
-                See below and see figma here: https://www.figma.com/file/SA6yGvsCddXSGxS391VT9c/Customer-Relationship-Assistant?node-id=0%3A1
+                See below and see figma here: https://www.figma.com/file/<file no longer available>
 
 */
 
